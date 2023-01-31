@@ -4,10 +4,11 @@ on: [push]
 
 jobs:
   apicafe_io:
+    permissions: write-all
     runs-on: ubuntu-latest
     name: Scan the webapplication
     steps:
-      - name: Scan TesingSite
+      - name: Scan TestSite
         uses: zaproxy/action-full-scan@v0.2.0
         with:
           target: 'https://dakohubsuptest.web.app'
