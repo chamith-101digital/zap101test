@@ -10,4 +10,4 @@ jobs:
       - name: Scan TesingSite
         uses: zaproxy/action-full-scan@v0.2.0
         with:
-          target: 'https://contact.101digital.io'
+          target: 'https://dakohubsuptest.web.app'
