@@ -11,4 +11,4 @@ jobs:
       - name: Scan TestSite
         uses: zaproxy/action-full-scan@v0.2.0
         with:
-          target: 'https://admintest-9987d.web.app'
+          target: 'https://openbanking-bc618.web.app'
